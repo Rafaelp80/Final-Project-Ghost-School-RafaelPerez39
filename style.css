@@ -1,0 +1,83 @@
+html,body{
+	height: 99%;
+	width: 99%;
+}
+*{
+	box-sizing: border-box;
+}
+.banner{
+	background-color: rgba(159,166,104,0.4);
+	margin: 15px;
+	padding: 10px;
+	border: 3px solid #8c90f2;
+	box-shadow: 1px 3px 30px 1px #7de8b1;
+	text-transform: capitalize;
+	text-shadow: 1px 1px #04d7d3 ;
+	font-family: fantasy;
+	height: 120px;
+	text-align: right;
+	font-style: oblique;
+  background-image: url('holi.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1{
+	font-size: 0.7em;
+}
+
+#logo{
+	width: 75px;
+	position: absolute;
+	top: 50px;
+	right: 150px;
+}
+.container{
+	border:2px #043e3a solid;
+	position: relative;
+	top: 2px;
+	margin: 15px;
+	padding: 10px;
+	height: 700px;
+	overflow: hidden;
+	background-color: rgba(159,166,104,0.4);
+  background-image: url('holi.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.wave{
+	border: #00fffb 1px solid;
+	color: whitesmoke;
+	text-align: center;
+	background-color: rgba(255,34,45, 0.5);
+	font-size: 0.9em;
+	height: 25px;
+	overflow: hidden;
+	width: 80%;
+	position:relative;
+	left: 10%;
+	transition: height 4s;
+	display:block;
+}
+#l1{
+	border:#1204d7 1px solid;
+	background-image:repeating-linear-gradient(#df4ed3, #80ff82);
+}
+#easy{
+  border:#27d704 1px solid;
+  background-image:repeating-linear-gradient(#df8f4e, #e380ff);
+}
+#medium{
+  border:#d70419 1px solid;
+  background-image:repeating-linear-gradient(#1f3db2, #55f75f);
+}
+#hard{
+  border:#9e11bb 1px solid;
+  background-image:repeating-linear-gradient(#5e0b75, #367d1c);
+}
+.wave:hover{
+	height:90%;
+	top:1px;
+	z-index:1;
+}
